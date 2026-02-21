@@ -8,5 +8,8 @@ export default defineConfig({
     react(),
     tailwindcss(), // เพิ่มบรรทัดนี้เพื่อให้ Vite รู้จัก Tailwind V4
   ],
+  build: {
+    outDir: 'build', // สั่งให้สร้างโฟลเดอร์ชื่อ build แทน dist
+  },
   base: '/apple-music-pongsakorn/',
 })
