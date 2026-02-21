@@ -11,5 +11,4 @@ export default defineConfig({
   build: {
     outDir: 'build', // สั่งให้สร้างโฟลเดอร์ชื่อ build แทน dist
   },
-  base: '/apple-music-pongsakorn/',
 })
